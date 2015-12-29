@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344DA0261C2A523F00AE3C84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 344DA0251C2A523F00AE3C84 /* main.m */; };
+		344DA0291C2A523F00AE3C84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 344DA0281C2A523F00AE3C84 /* AppDelegate.m */; };
+		344DA02F1C2A523F00AE3C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344DA02D1C2A523F00AE3C84 /* Main.storyboard */; };
+		345B1E9A1C31ED5D009BB77D /* ObjCSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 345B1E991C31ED5D009BB77D /* ObjCSpec.mm */; };
+		345B1EA41C31F88B009BB77D /* SwiftSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345B1EA21C31ED9B009BB77D /* SwiftSpec.swift */; };
+		B67E019CF2498714D2B3070F /* Pods_MixedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CA4E5D10E5A07C5CB10D0C /* Pods_MixedTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345B1E9C1C31ED5D009BB77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 344DA0191C2A523F00AE3C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 344DA0201C2A523F00AE3C84;
+			remoteInfo = CedarWithNimble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		248721066AC5833CC3DCECD2 /* Pods-MixedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MixedTests/Pods-MixedTests.release.xcconfig"; sourceTree = "<group>"; };
+		344DA0211C2A523F00AE3C84 /* CedarWithNimble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CedarWithNimble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		344DA0251C2A523F00AE3C84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		344DA0281C2A523F00AE3C84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		344DA02E1C2A523F00AE3C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		344DA0351C2A523F00AE3C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345B1E971C31ED5D009BB77D /* MixedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		345B1E991C31ED5D009BB77D /* ObjCSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCSpec.mm; sourceTree = "<group>"; };
+		345B1E9B1C31ED5D009BB77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345B1EA11C31ED9A009BB77D /* MixedTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixedTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		345B1EA21C31ED9B009BB77D /* SwiftSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpec.swift; sourceTree = "<group>"; };
+		ADE66FFCFF837836DD9A7F36 /* Pods-MixedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MixedTests/Pods-MixedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3CA4E5D10E5A07C5CB10D0C /* Pods_MixedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344DA01E1C2A523F00AE3C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345B1E941C31ED5D009BB77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67E019CF2498714D2B3070F /* Pods_MixedTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344DA0181C2A523F00AE3C84 = {
+			isa = PBXGroup;
+			children = (
+				344DA0231C2A523F00AE3C84 /* CedarWithNimble */,
+				345B1E981C31ED5D009BB77D /* MixedTests */,
+				344DA0221C2A523F00AE3C84 /* Products */,
+				E8922170F00C02B061476E9E /* Pods */,
+				831BDC24A9E83DA445021149 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		344DA0221C2A523F00AE3C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				344DA0211C2A523F00AE3C84 /* CedarWithNimble.app */,
+				345B1E971C31ED5D009BB77D /* MixedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		344DA0231C2A523F00AE3C84 /* CedarWithNimble */ = {
+			isa = PBXGroup;
+			children = (
+				344DA0281C2A523F00AE3C84 /* AppDelegate.m */,
+				344DA02D1C2A523F00AE3C84 /* Main.storyboard */,
+				344DA0351C2A523F00AE3C84 /* Info.plist */,
+				344DA0241C2A523F00AE3C84 /* Supporting Files */,
+			);
+			path = CedarWithNimble;
+			sourceTree = "<group>";
+		};
+		344DA0241C2A523F00AE3C84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				344DA0251C2A523F00AE3C84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		345B1E981C31ED5D009BB77D /* MixedTests */ = {
+			isa = PBXGroup;
+			children = (
+				345B1E991C31ED5D009BB77D /* ObjCSpec.mm */,
+				345B1EA21C31ED9B009BB77D /* SwiftSpec.swift */,
+				345B1EA11C31ED9A009BB77D /* MixedTests-Bridging-Header.h */,
+				345B1E9B1C31ED5D009BB77D /* Info.plist */,
+			);
+			path = MixedTests;
+			sourceTree = "<group>";
+		};
+		831BDC24A9E83DA445021149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3CA4E5D10E5A07C5CB10D0C /* Pods_MixedTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8922170F00C02B061476E9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADE66FFCFF837836DD9A7F36 /* Pods-MixedTests.debug.xcconfig */,
+				248721066AC5833CC3DCECD2 /* Pods-MixedTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		344DA0201C2A523F00AE3C84 /* CedarWithNimble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344DA0381C2A523F00AE3C84 /* Build configuration list for PBXNativeTarget "CedarWithNimble" */;
+			buildPhases = (
+				344DA01D1C2A523F00AE3C84 /* Sources */,
+				344DA01E1C2A523F00AE3C84 /* Frameworks */,
+				344DA01F1C2A523F00AE3C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CedarWithNimble;
+			productName = CedarWithNimble;
+			productReference = 344DA0211C2A523F00AE3C84 /* CedarWithNimble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		345B1E961C31ED5D009BB77D /* MixedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345B1EA01C31ED5D009BB77D /* Build configuration list for PBXNativeTarget "MixedTests" */;
+			buildPhases = (
+				DD579EB0167CD057022EA622 /* Check Pods Manifest.lock */,
+				345B1E931C31ED5D009BB77D /* Sources */,
+				345B1E941C31ED5D009BB77D /* Frameworks */,
+				345B1E951C31ED5D009BB77D /* Resources */,
+				EB5BB765BF6FA1AAE6B83FCA /* Embed Pods Frameworks */,
+				7C244ADF6BFE12B5D8E24EC2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345B1E9D1C31ED5D009BB77D /* PBXTargetDependency */,
+			);
+			name = MixedTests;
+			productName = MixedTests;
+			productReference = 345B1E971C31ED5D009BB77D /* MixedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		344DA0191C2A523F00AE3C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					344DA0201C2A523F00AE3C84 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					345B1E961C31ED5D009BB77D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 344DA0201C2A523F00AE3C84;
+					};
+				};
+			};
+			buildConfigurationList = 344DA01C1C2A523F00AE3C84 /* Build configuration list for PBXProject "CedarWithNimble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 344DA0181C2A523F00AE3C84;
+			productRefGroup = 344DA0221C2A523F00AE3C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				344DA0201C2A523F00AE3C84 /* CedarWithNimble */,
+				345B1E961C31ED5D009BB77D /* MixedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		344DA01F1C2A523F00AE3C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344DA02F1C2A523F00AE3C84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345B1E951C31ED5D009BB77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C244ADF6BFE12B5D8E24EC2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixedTests/Pods-MixedTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD579EB0167CD057022EA622 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB5BB765BF6FA1AAE6B83FCA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MixedTests/Pods-MixedTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		344DA01D1C2A523F00AE3C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344DA0291C2A523F00AE3C84 /* AppDelegate.m in Sources */,
+				344DA0261C2A523F00AE3C84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345B1E931C31ED5D009BB77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345B1EA41C31F88B009BB77D /* SwiftSpec.swift in Sources */,
+				345B1E9A1C31ED5D009BB77D /* ObjCSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345B1E9D1C31ED5D009BB77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 344DA0201C2A523F00AE3C84 /* CedarWithNimble */;
+			targetProxy = 345B1E9C1C31ED5D009BB77D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		344DA02D1C2A523F00AE3C84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				344DA02E1C2A523F00AE3C84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		344DA0361C2A523F00AE3C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		344DA0371C2A523F00AE3C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		344DA0391C2A523F00AE3C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CedarWithNimble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.CedarWithNimble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		344DA03A1C2A523F00AE3C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CedarWithNimble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.CedarWithNimble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		345B1E9E1C31ED5D009BB77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE66FFCFF837836DD9A7F36 /* Pods-MixedTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MixedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.MixedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedTests/MixedTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedarWithNimble.app/CedarWithNimble";
+			};
+			name = Debug;
+		};
+		345B1E9F1C31ED5D009BB77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248721066AC5833CC3DCECD2 /* Pods-MixedTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MixedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.briancroom.MixedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedTests/MixedTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedarWithNimble.app/CedarWithNimble";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		344DA01C1C2A523F00AE3C84 /* Build configuration list for PBXProject "CedarWithNimble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344DA0361C2A523F00AE3C84 /* Debug */,
+				344DA0371C2A523F00AE3C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344DA0381C2A523F00AE3C84 /* Build configuration list for PBXNativeTarget "CedarWithNimble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344DA0391C2A523F00AE3C84 /* Debug */,
+				344DA03A1C2A523F00AE3C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345B1EA01C31ED5D009BB77D /* Build configuration list for PBXNativeTarget "MixedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345B1E9E1C31ED5D009BB77D /* Debug */,
+				345B1E9F1C31ED5D009BB77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 344DA0191C2A523F00AE3C84 /* Project object */;
+}

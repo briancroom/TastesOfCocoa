@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'MixedTests' do
+  pod 'Cedar', :git => 'https://github.com/briancroom/cedar.git', :branch => 'swift_module'
+  pod 'Nimble'
+end

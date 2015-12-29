@@ -1,0 +1,23 @@
+PODS:
+  - Cedar (0.12.0)
+  - Nimble (3.0.0)
+
+DEPENDENCIES:
+  - Cedar (from `https://github.com/briancroom/cedar.git`, branch `swift_module`)
+  - Nimble
+
+EXTERNAL SOURCES:
+  Cedar:
+    :branch: swift_module
+    :git: https://github.com/briancroom/cedar.git
+
+CHECKOUT OPTIONS:
+  Cedar:
+    :commit: 836670c7645bb71623f47963f108c222a5121f4b
+    :git: https://github.com/briancroom/cedar.git
+
+SPEC CHECKSUMS:
+  Cedar: ca163d6364991f39a4758fef49be3b95504ed0d0
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
+
+COCOAPODS: 0.39.0
